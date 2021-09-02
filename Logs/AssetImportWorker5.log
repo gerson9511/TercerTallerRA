@@ -1,0 +1,959 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1110; Version 2009; 64bit' Language: 'es' Physical Memory: 8094 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Disco D\Programas\Instaladores Software\6 SEM\PGM\Unity\2018.4.19f1\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Disco D/Documentos/UNIFRANZ/Semestre 9/RAV/H2/Proyectos/Dinosaurios/Dinosaurios
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50735
+Successfully changed project path to: D:/Disco D/Documentos/UNIFRANZ/Semestre 9/RAV/H2/Proyectos/Dinosaurios/Dinosaurios
+D:/Disco D/Documentos/UNIFRANZ/Semestre 9/RAV/H2/Proyectos/Dinosaurios/Dinosaurios
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.54 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 3.66 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path D:/Disco D/Programas/Instaladores Software/6 SEM/PGM/Unity/2018.4.19f1/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Disco D/Documentos/UNIFRANZ/Semestre 9/RAV/H2/Proyectos/Dinosaurios/Dinosaurios/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   10.18.10.4653
+Initialize mono
+Mono path[0] = 'D:/Disco D/Programas/Instaladores Software/6 SEM/PGM/Unity/2018.4.19f1/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'D:/Disco D/Programas/Instaladores Software/6 SEM/PGM/Unity/2018.4.19f1/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Disco D/Programas/Instaladores Software/6 SEM/PGM/Unity/2018.4.19f1/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Disco D/Programas/Instaladores Software/6 SEM/PGM/Unity/2018.4.19f1/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001710 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.43 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2732ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4411ms)
+		BeginReloadAssembly (337ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (3973ms)
+			LoadAssemblies (2099ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (1000ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.43 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1448 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 3.994900 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.153300 ms MarkObjects: 3.396700 ms  DeleteObjects: 0.154100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Tyranosaurus.obj
+  artifactKey: Guid(e18bd9eabaf8fdf428ebb3326b899684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyranosaurus.obj using Guid(e18bd9eabaf8fdf428ebb3326b899684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16bb7caba7d070a6715a067e17875e1') in 1.294686 seconds 
+  Import took 1.301874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.440106 seconds.
+  path: Assets/Tyranosaurus.stl
+  artifactKey: Guid(48a13642aff972d45a6bacfc4fa879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyranosaurus.stl using Guid(48a13642aff972d45a6bacfc4fa879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f23f29691c7715505c64e074169a980') in 0.028613 seconds 
+  Import took 0.034079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.773679 seconds.
+  path: Assets/3166-tyranosaurus-3d-model
+  artifactKey: Guid(42e69b1133ee3bb45a792dfc3c24e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model using Guid(42e69b1133ee3bb45a792dfc3c24e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9ddbbec659f754de469e02626e8cd2') in 0.070720 seconds 
+  Import took 0.075125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.209972 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (1).png
+  artifactKey: Guid(eada547f2d8a3b144a0c4a6a55babd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (1).png using Guid(eada547f2d8a3b144a0c4a6a55babd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c380b74d6bdd9ca4dd3a3c836801b1') in 0.213463 seconds 
+  Import took 0.217057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (4).png
+  artifactKey: Guid(f6d6ae5b0a63a974fbf0471756919b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (4).png using Guid(f6d6ae5b0a63a974fbf0471756919b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda16050e9f793c85b693c8b8efeacc7') in 0.050531 seconds 
+  Import took 0.054888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1.png
+  artifactKey: Guid(8e57880bdcbd9f149bf6a3059cc02183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1.png using Guid(8e57880bdcbd9f149bf6a3059cc02183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3930a1eae323d79fb04bf5d389bc658c') in 0.133474 seconds 
+  Import took 0.140055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (3).png
+  artifactKey: Guid(672aace94b87a7c45b6c531cc4f99c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (3).png using Guid(672aace94b87a7c45b6c531cc4f99c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4db8d8f85bc274920f0e983f1d0971') in 0.085604 seconds 
+  Import took 0.116095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/Tyranosaurus.obj
+  artifactKey: Guid(b4053acea16b11b4b9fd731f8ba2867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/Tyranosaurus.obj using Guid(b4053acea16b11b4b9fd731f8ba2867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6e67e1aca6023507916f5f2797e318') in 0.174752 seconds 
+  Import took 0.184424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (7).png
+  artifactKey: Guid(9372f3293d027e24c93b6ad1a615ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (7).png using Guid(9372f3293d027e24c93b6ad1a615ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81cfbbcd7c033c35e50f8359280fb83') in 0.060966 seconds 
+  Import took 0.066563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (5).png
+  artifactKey: Guid(5bd8aa9a188adf543ab121509dbf9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (5).png using Guid(5bd8aa9a188adf543ab121509dbf9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a968054ced92f7292b71241fa22da9f') in 0.062736 seconds 
+  Import took 0.066936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (2).png
+  artifactKey: Guid(7523ae64a140d6349ba606096f470fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (2).png using Guid(7523ae64a140d6349ba606096f470fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b04421dc5afaa1a463741b1e4e6ad1') in 0.069004 seconds 
+  Import took 0.072661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (4).png
+  artifactKey: Guid(d66928c9d7856e34892e213f6cf426df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (4).png using Guid(d66928c9d7856e34892e213f6cf426df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f67b31e23ce19c258d9c54423a932f') in 0.038719 seconds 
+  Import took 0.042069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (5).png
+  artifactKey: Guid(fac60eb912274b345b63ace606e0bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (5).png using Guid(fac60eb912274b345b63ace606e0bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42650d2e937b24ccaa152455a44feff3') in 0.051333 seconds 
+  Import took 0.054767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (8).png
+  artifactKey: Guid(4ccac0ce75fa01744a4969a76479c005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (8).png using Guid(4ccac0ce75fa01744a4969a76479c005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a5b7af8e2047b3c4c14f0ea4a8bdd1') in 0.053399 seconds 
+  Import took 0.057357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (6).png
+  artifactKey: Guid(eb02bf526eac5a24a8b00be9311e4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (6).png using Guid(eb02bf526eac5a24a8b00be9311e4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe601380b68b2fedb63b8262f32d2f6') in 0.047894 seconds 
+  Import took 0.051794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (6).png
+  artifactKey: Guid(c99dc21e2091ae14bb3262c1df049bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (6).png using Guid(c99dc21e2091ae14bb3262c1df049bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb4d7303bf488f135b6cd58cb3e0f44') in 0.060968 seconds 
+  Import took 0.065327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (3).png
+  artifactKey: Guid(a0a76405cc1e60148ab7a4f5166c65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (3).png using Guid(a0a76405cc1e60148ab7a4f5166c65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa945cfb93191eaab57b48feaa7a86') in 0.065366 seconds 
+  Import took 0.069162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2.png
+  artifactKey: Guid(1f1933483070c454ab86c63ea0a2531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2.png using Guid(1f1933483070c454ab86c63ea0a2531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48049d11dabc26399d8996b85087f51d') in 0.051038 seconds 
+  Import took 0.054546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (8).png
+  artifactKey: Guid(634a838bb1c27a4439236c1f6ee4f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (8).png using Guid(634a838bb1c27a4439236c1f6ee4f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc65a77217fa48c4700a7f56f22d65') in 0.054090 seconds 
+  Import took 0.057843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/UV Tyranosaurus.png
+  artifactKey: Guid(e8d0be87934c91f46a260725943f9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/UV Tyranosaurus.png using Guid(e8d0be87934c91f46a260725943f9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb97c993b84702281b000e684a9c14') in 0.049442 seconds 
+  Import took 0.053035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/Tyranosaurus.FBX
+  artifactKey: Guid(18c70e9a7445d504e9b3fb9fc8e09e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/Tyranosaurus.FBX using Guid(18c70e9a7445d504e9b3fb9fc8e09e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d9f0115c5ab31dabde301eb0dc8b3a') in 0.060543 seconds 
+  Import took 0.066027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (1).png
+  artifactKey: Guid(840c91f5587d4a14fbcf4c7918390500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (1).png using Guid(840c91f5587d4a14fbcf4c7918390500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77169690cba2911f2f91b2523268635c') in 0.055299 seconds 
+  Import took 0.060940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/1 (7).png
+  artifactKey: Guid(611c53b46e68f0148ada10a0f7ffedf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/1 (7).png using Guid(611c53b46e68f0148ada10a0f7ffedf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb311ca152a57a18b774fad6b7fa16') in 0.044881 seconds 
+  Import took 0.049023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/3166-tyranosaurus-3d-model/2 (2).png
+  artifactKey: Guid(6b520bdee2edce8479568b06d6eaab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3166-tyranosaurus-3d-model/2 (2).png using Guid(6b520bdee2edce8479568b06d6eaab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29b36a637b2f3832294e41a07d76e83') in 0.052318 seconds 
+  Import took 0.057159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.453271 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.041397 seconds 
+  Import took 0.045843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.337049 seconds.
+  path: Assets/3D
+  artifactKey: Guid(3ab88569928c4cb40a9757490104dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D using Guid(3ab88569928c4cb40a9757490104dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cb7929b50f34de509e0173cd198efe') in 0.015370 seconds 
+  Import took 0.022224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.298507 seconds.
+  path: Assets/3D/triceratops-3d-model
+  artifactKey: Guid(32a8118d87aa6cc41a09f28966d44ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model using Guid(32a8118d87aa6cc41a09f28966d44ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e173e0f3bc686bd9f36eb6859c3a705d') in 0.011485 seconds 
+  Import took 0.017048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038207 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (2).png
+  artifactKey: Guid(920d704a202d594488a3e1f4161f3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (2).png using Guid(920d704a202d594488a3e1f4161f3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4a96337528fa9457bc84f0f477fca8') in 0.128306 seconds 
+  Import took 0.179643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (4).png
+  artifactKey: Guid(f7083c72d7bf32442b60788a2df0e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (4).png using Guid(f7083c72d7bf32442b60788a2df0e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d5b2427549f0692ce96c215fc4965e') in 0.097374 seconds 
+  Import took 0.105407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (3).png
+  artifactKey: Guid(b11c961dfbab9be4ca3f34a502dbae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (3).png using Guid(b11c961dfbab9be4ca3f34a502dbae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c63b80c211be300c429f69053699c') in 0.100882 seconds 
+  Import took 0.107270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (8).png
+  artifactKey: Guid(680e16d32fbe9614c8e52d2360e4684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (8).png using Guid(680e16d32fbe9614c8e52d2360e4684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b535a7114103f0309362e6ad565bff41') in 0.054509 seconds 
+  Import took 0.059354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (1).png
+  artifactKey: Guid(ac47321a2363fe746aa4de0d1d5b4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (1).png using Guid(ac47321a2363fe746aa4de0d1d5b4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df86007e493cd7385267a5b531b5e52') in 0.086099 seconds 
+  Import took 0.089439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (2).png
+  artifactKey: Guid(31497cea86427fc4da1565fca21ee64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (2).png using Guid(31497cea86427fc4da1565fca21ee64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17236a7085490faa82c6d3727c9a260') in 0.133539 seconds 
+  Import took 0.139413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (5).png
+  artifactKey: Guid(46765e7a90175e745b244573d51ca345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (5).png using Guid(46765e7a90175e745b244573d51ca345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea4b9037fa4c29a84bcc49defe77b4b') in 0.084298 seconds 
+  Import took 0.090432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3D/triceratops-3d-model/Triceratops_texture.png
+  artifactKey: Guid(10a35f2afec89f54a950dd4c08fe8ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/Triceratops_texture.png using Guid(10a35f2afec89f54a950dd4c08fe8ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707a8a34b64844a9c30c11143f582eb1') in 0.113837 seconds 
+  Import took 0.117277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (7).png
+  artifactKey: Guid(c4da4c4f08f1e8f4a9926787d40d69c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (7).png using Guid(c4da4c4f08f1e8f4a9926787d40d69c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fda5b85d9f8e03f5132b39152ca80d') in 0.055270 seconds 
+  Import took 0.074671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (7).png
+  artifactKey: Guid(6e6a1b9ca84845e46a2b643bebecc273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (7).png using Guid(6e6a1b9ca84845e46a2b643bebecc273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b0d934226b59de1c473afdc50a19b0') in 0.091088 seconds 
+  Import took 0.096000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (6).png
+  artifactKey: Guid(04befa345889c1f47bf2ebb5282a08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (6).png using Guid(04befa345889c1f47bf2ebb5282a08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4d4d2edc3207c6820b380668b6c042') in 0.041888 seconds 
+  Import took 0.046560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (8).png
+  artifactKey: Guid(ffdab2ea6357ccf4ab4c7c607a9b899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (8).png using Guid(ffdab2ea6357ccf4ab4c7c607a9b899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8d364901f12f3375e4f7b299c7b3da') in 0.032778 seconds 
+  Import took 0.036397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (6).png
+  artifactKey: Guid(d54988bf66b311e4da9ca95f26bea6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (6).png using Guid(d54988bf66b311e4da9ca95f26bea6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b6797d6e16136c41ec932761e3ff7c') in 0.039221 seconds 
+  Import took 0.043296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/3D/triceratops-3d-model/ triceratops.fbx
+  artifactKey: Guid(20db36d83a76ba44c99d03ee5ed142df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/ triceratops.fbx using Guid(20db36d83a76ba44c99d03ee5ed142df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e417014fdd05640945818e1958546c') in 0.049748 seconds 
+  Import took 0.080691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (1).png
+  artifactKey: Guid(644261b99c6b6ed4db22fcd721eb0bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (1).png using Guid(644261b99c6b6ed4db22fcd721eb0bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80ec78316bceeee4d508a83301b94f4') in 0.055745 seconds 
+  Import took 0.058998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (4).png
+  artifactKey: Guid(7ffb5488e0145094b8fc9fbe9ee98e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (4).png using Guid(7ffb5488e0145094b8fc9fbe9ee98e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21cf6a4369ec78110bae26d0fe79d47') in 0.034880 seconds 
+  Import took 0.038359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/3D/triceratops-3d-model/2 (5).png
+  artifactKey: Guid(709e8d85108153448bbcd50413454a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/2 (5).png using Guid(709e8d85108153448bbcd50413454a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88be02f044ce15b33ebd49e0856c6bd3') in 0.088761 seconds 
+  Import took 0.093295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/3D/triceratops-3d-model/1 (3).png
+  artifactKey: Guid(e0b70889d849d364fad0c7a5e7a05c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/1 (3).png using Guid(e0b70889d849d364fad0c7a5e7a05c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daddcb90a09156ea0bf38aa8381be32') in 0.035862 seconds 
+  Import took 0.050886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D/triceratops-3d-model/ triceratops.obj
+  artifactKey: Guid(78fdcc67cbccecd478fc6ecf2fe00b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/triceratops-3d-model/ triceratops.obj using Guid(78fdcc67cbccecd478fc6ecf2fe00b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ccd35fd04405a8583cabdd62ce1e07') in 0.130279 seconds 
+  Import took 0.134216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.835605 seconds.
+  path: Assets/3D/Dilpoh_OBJ
+  artifactKey: Guid(cb9e86024433bb5478a33d780eadbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ using Guid(cb9e86024433bb5478a33d780eadbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116fc0640762912cfe0df05b1137d6ff') in 0.010215 seconds 
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222779 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ
+  artifactKey: Guid(a659e34fc9c9e5f49a3975a14370d1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ using Guid(a659e34fc9c9e5f49a3975a14370d1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138ea596b76bcb1737b1449116ff6471') in 0.045952 seconds 
+  Import took 0.050738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050589 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg
+  artifactKey: Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg using Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac832d60620a98df2c56a536867d2b62') in 0.316165 seconds 
+  Import took 0.321861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Inner - Colored.obj
+  artifactKey: Guid(2816db620932ea74fb2c30565c2d6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Inner - Colored.obj using Guid(2816db620932ea74fb2c30565c2d6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc78441f5493b14931f9e121b84b48a') in 0.152587 seconds 
+  Import took 0.160634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Full.obj
+  artifactKey: Guid(4fcd853e4a1e3ea4f926a226f39c1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Full.obj using Guid(4fcd853e4a1e3ea4f926a226f39c1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5d04aa159144a2fe2a26ce71bac8eb') in 0.593770 seconds 
+  Import took 0.600164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main Mesh.obj
+  artifactKey: Guid(d0c8cbdbb750d0749808526cfe65d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main Mesh.obj using Guid(d0c8cbdbb750d0749808526cfe65d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b46e3bfa4b25d9c3063bdaaa64f6ff') in 0.072105 seconds 
+  Import took 0.075919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth & Webbing Diffuse 1024x1024.jpg
+  artifactKey: Guid(ad344c89952151e458065775a2355315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth & Webbing Diffuse 1024x1024.jpg using Guid(ad344c89952151e458065775a2355315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f3de68ebad6d32bbff757501396ce9') in 0.039327 seconds 
+  Import took 0.043759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.jpg
+  artifactKey: Guid(a6607294750bac044983bd5d8c29c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.jpg using Guid(a6607294750bac044983bd5d8c29c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87380b5b913b2d789436174ef599d7cf') in 0.280572 seconds 
+  Import took 0.287041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.tga
+  artifactKey: Guid(866e8881ea8912945bf5c39d904acc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.tga using Guid(866e8881ea8912945bf5c39d904acc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163f43eccf86ed8e754d332f350d311') in 0.094687 seconds 
+  Import took 0.099492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth Webbing.obj
+  artifactKey: Guid(f32f798c8f585df47bb86ea32750736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth Webbing.obj using Guid(f32f798c8f585df47bb86ea32750736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04529ba987a92681c1400cb7f16041e') in 0.054811 seconds 
+  Import took 0.058179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.tga
+  artifactKey: Guid(7506125960f439948877c6f0de8d14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.tga using Guid(7506125960f439948877c6f0de8d14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e806eb34633f9ccbe345033166f2c36d') in 0.163775 seconds 
+  Import took 0.167143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.tga
+  artifactKey: Guid(439687e1539107140aebf7d48ee68f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.tga using Guid(439687e1539107140aebf7d48ee68f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1aa1c59004196c64bedfb1dfae0521') in 0.387446 seconds 
+  Import took 0.393514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.tga
+  artifactKey: Guid(d5e4d165f4236e64aa8e6bbe54d55de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.tga using Guid(d5e4d165f4236e64aa8e6bbe54d55de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f42c0b6baab1e5d17ce3c128804b220') in 0.132084 seconds 
+  Import took 0.139382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Outer - Clear.obj
+  artifactKey: Guid(e1853943c86a78242a03ff825a6f3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Outer - Clear.obj using Guid(e1853943c86a78242a03ff825a6f3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0a9eaec3c0bd9b9e25aae1c76f5939') in 0.067844 seconds 
+  Import took 0.074480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.tga
+  artifactKey: Guid(d5f6f4f27575fda40a16f5245986b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.tga using Guid(d5f6f4f27575fda40a16f5245986b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fbb1dbf1ba16a8743ff25b642d24bc') in 0.123975 seconds 
+  Import took 0.128075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Upper Jaw - Gum&Teeth.obj
+  artifactKey: Guid(2cece51f15593744983da8ac870cf7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Upper Jaw - Gum&Teeth.obj using Guid(2cece51f15593744983da8ac870cf7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc7daabbeec363fc0a6372db4a27131') in 0.085743 seconds 
+  Import took 0.089118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Lower Jaw - Gum&Teeth.obj
+  artifactKey: Guid(583badfb988c4f24996277262a64c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Lower Jaw - Gum&Teeth.obj using Guid(583badfb988c4f24996277262a64c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9c11927e8fe3f81ff22f2b961cac66') in 0.080635 seconds 
+  Import took 0.084082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Tongue.obj
+  artifactKey: Guid(61510c1422f3b5a41bb946706df7635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Tongue.obj using Guid(61510c1422f3b5a41bb946706df7635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93d21116880a3b3274272366b77bab') in 0.051410 seconds 
+  Import took 0.054803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Diffuse 512x512.jpg
+  artifactKey: Guid(251e38fe43da6584fa39331c735d959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Diffuse 512x512.jpg using Guid(251e38fe43da6584fa39331c735d959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dc41a902ca32964df118ef5a090eba') in 0.022070 seconds 
+  Import took 0.025471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.tga
+  artifactKey: Guid(6abf75dcb21210541992ad4ed31dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.tga using Guid(6abf75dcb21210541992ad4ed31dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bba1b539b445bf95eb4c66ea8966b6') in 0.184040 seconds 
+  Import took 0.189863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.jpg
+  artifactKey: Guid(306a330ddaec14e46bfaf81ec08b350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.jpg using Guid(306a330ddaec14e46bfaf81ec08b350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4010aab032000438ccde2d044461037e') in 0.052255 seconds 
+  Import took 0.086022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.jpg
+  artifactKey: Guid(6dc27de290e760840a8a71dfcd69f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.jpg using Guid(6dc27de290e760840a8a71dfcd69f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9697e6f0f3cd5d93ab7f2344bc5cabf1') in 0.120197 seconds 
+  Import took 0.123925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.jpg
+  artifactKey: Guid(39270c3af1bb93843942d3fddfa3acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.jpg using Guid(39270c3af1bb93843942d3fddfa3acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d91d696a1c013acd9ead8bf01c935f2') in 0.099602 seconds 
+  Import took 0.103013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.jpg
+  artifactKey: Guid(32669dfa258ac5049952e8819d3e05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.jpg using Guid(32669dfa258ac5049952e8819d3e05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1802732f015fd6fa4d001e44310277') in 0.188910 seconds 
+  Import took 0.192518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.471624 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main_Mesh.prefab
+  artifactKey: Guid(fc6bcb5481f89634c9a08bd5f8a0f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main_Mesh.prefab using Guid(fc6bcb5481f89634c9a08bd5f8a0f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b11b25013996ecfb666e2452490d96') in 0.074728 seconds 
+  Import took 0.079430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051649 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main_Mesh.prefab
+  artifactKey: Guid(fc6bcb5481f89634c9a08bd5f8a0f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Main_Mesh.prefab using Guid(fc6bcb5481f89634c9a08bd5f8a0f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b11b25013996ecfb666e2452490d96') in 0.014922 seconds 
+  Import took 0.018795 seconds .
+
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(537395200) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 14.47 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.3 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2190.
+Total: 4.356600 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.086100 ms MarkObjects: 3.935600 ms  DeleteObjects: 0.088700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 524288, extendedPlatform 0 -> platform 13, subtarget 537395200, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2099200
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 609.248364 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg
+  artifactKey: Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg using Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0dc4441c05579e3813c979dad0bf60') in 0.213435 seconds 
+  Import took 0.220607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth & Webbing Diffuse 1024x1024.jpg
+  artifactKey: Guid(ad344c89952151e458065775a2355315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Mouth & Webbing Diffuse 1024x1024.jpg using Guid(ad344c89952151e458065775a2355315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322301e8599f13b895cbcdc5650bfabd') in 0.068849 seconds 
+  Import took 0.076042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg
+  artifactKey: Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.jpg using Guid(296c9fa90ce8d3147a3fcd0b6aaa9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0dc4441c05579e3813c979dad0bf60') in 0.119454 seconds 
+  Import took 0.124395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.jpg
+  artifactKey: Guid(a6607294750bac044983bd5d8c29c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.jpg using Guid(a6607294750bac044983bd5d8c29c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7420e04c14094e0d33e78881549f0d51') in 0.111502 seconds 
+  Import took 0.115368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.tga
+  artifactKey: Guid(866e8881ea8912945bf5c39d904acc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.tga using Guid(866e8881ea8912945bf5c39d904acc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6096869a60da069f03684a554b48edc0') in 0.043380 seconds 
+  Import took 0.046957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.tga
+  artifactKey: Guid(7506125960f439948877c6f0de8d14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Normal 2048x2048.tga using Guid(7506125960f439948877c6f0de8d14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce625d5c8b9d50cd86ed55e70f720c9c') in 0.099008 seconds 
+  Import took 0.103637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.tga
+  artifactKey: Guid(439687e1539107140aebf7d48ee68f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.tga using Guid(439687e1539107140aebf7d48ee68f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17560b6227081463686dc50a88622be4') in 0.144233 seconds 
+  Import took 0.148474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.tga
+  artifactKey: Guid(d5e4d165f4236e64aa8e6bbe54d55de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.tga using Guid(d5e4d165f4236e64aa8e6bbe54d55de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50daa0e28d28b7deed636395c5488095') in 0.100784 seconds 
+  Import took 0.106798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.tga
+  artifactKey: Guid(d5f6f4f27575fda40a16f5245986b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.tga using Guid(d5f6f4f27575fda40a16f5245986b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec00518b5fb2502d78b303f69e5e0ae') in 0.132264 seconds 
+  Import took 0.136613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Diffuse 512x512.jpg
+  artifactKey: Guid(251e38fe43da6584fa39331c735d959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Eye Diffuse 512x512.jpg using Guid(251e38fe43da6584fa39331c735d959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d692fc9d6df8bc4137f8bed09d5b72') in 0.027263 seconds 
+  Import took 0.031104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.tga
+  artifactKey: Guid(6abf75dcb21210541992ad4ed31dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Diffuse 4096x4096.tga using Guid(6abf75dcb21210541992ad4ed31dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf74dbbe94b900062e4ec575243db9f3') in 0.133683 seconds 
+  Import took 0.137642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.jpg
+  artifactKey: Guid(306a330ddaec14e46bfaf81ec08b350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Specular 2048x2048.jpg using Guid(306a330ddaec14e46bfaf81ec08b350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d33a525529e4ec7b4b51add17fdf11') in 0.036549 seconds 
+  Import took 0.040414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.jpg
+  artifactKey: Guid(6dc27de290e760840a8a71dfcd69f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Normal 4096x4096.jpg using Guid(6dc27de290e760840a8a71dfcd69f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9ffa06628b3b7e5910cc8634d4b8d1') in 0.107278 seconds 
+  Import took 0.110859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.jpg
+  artifactKey: Guid(39270c3af1bb93843942d3fddfa3acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Specular 4096x4096.jpg using Guid(39270c3af1bb93843942d3fddfa3acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81271da9ec49eddd9a1b8f0ad1d5611') in 0.119812 seconds 
+  Import took 0.124269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.jpg
+  artifactKey: Guid(32669dfa258ac5049952e8819d3e05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Dilpoh_OBJ/Dilpoh OBJ/Frill Diffuse 2048x2048.jpg using Guid(32669dfa258ac5049952e8819d3e05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9bec0f9fa66309b1a63316548afcb6') in 0.111816 seconds 
+  Import took 0.115905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.509302 seconds.
+  path: Assets/Multimedia
+  artifactKey: Guid(30379f22ca02abb41801b066918e8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multimedia using Guid(30379f22ca02abb41801b066918e8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b08aa99319e7e2a78fe6ab3727510fc') in 0.008065 seconds 
+  Import took 0.012392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.162115 seconds.
+  path: Assets/Multimedia/Materiales
+  artifactKey: Guid(d7e2a6cc8c2228d409e4b849494f3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multimedia/Materiales using Guid(d7e2a6cc8c2228d409e4b849494f3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906872f0674aa7b815141a4a0ea6ce64') in 0.008301 seconds 
+  Import took 0.012308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.251162 seconds.
+  path: Assets/Multimedia/Materiales/pasto.jpg
+  artifactKey: Guid(5a97c7ede993f2c46a14b5973a550895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multimedia/Materiales/pasto.jpg using Guid(5a97c7ede993f2c46a14b5973a550895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086a8956902808822c5348ebcace354d') in 0.027135 seconds 
+  Import took 0.031801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.923404 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(8f6c82b353cd8394487681f7d488ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(8f6c82b353cd8394487681f7d488ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3376d244844e985577da5865f8a2de94') in 0.486794 seconds 
+  Import took 0.491397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.228495 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(8d572e2f7313ab34396df987b9175c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(8d572e2f7313ab34396df987b9175c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c91323e6784f27f73ad6f447e9e937') in 0.052134 seconds 
+  Import took 0.058479 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.54 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.5 MB.
+System memory in use after: 45.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2195.
+Total: 4.789100 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.107200 ms MarkObjects: 4.351600 ms  DeleteObjects: 0.085400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.38 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.5 MB.
+System memory in use after: 45.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2195.
+Total: 46.280700 ms (FindLiveObjects: 0.917700 ms CreateObjectMapping: 0.268400 ms MarkObjects: 44.956200 ms  DeleteObjects: 0.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
